@@ -180,7 +180,7 @@ def login(username, password):
         r = tianyi_session.get(redirect_url)
         return tianyi_session
     except Exception as e:
-        result += "登录账号出现异常!"
+        result += "登录账号出现异常,请稍候再试!"
 
 
 if __name__ == "__main__":
